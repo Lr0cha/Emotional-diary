@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Diário Emocional - Diário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Meu Diário Emocional</h1>
+</header>
+
+<nav>
+    <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a><i class="fa-solid fa-book"></i> Diário</a>
+</nav>
+
+<div class="container">
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Seu Diário Pessoal</h1>
+            <p>Registre seus pensamentos e sentimentos aqui. Cada mensagem é um passo para o autocuidado.</p>
+        </div>
+        <div class="hero-img">
+            <img src="../images/livingfsvg.svg" alt="Ilustração de pessoas juntas">
+        </div>
+    </div>
+
+    <div class="diary">
+        <input type="text" id="messageInput" placeholder="Escreva sua mensagem aqui..." />
+        <p>Não armazene dados confidenciais. <span id="count">0/500</span></p>
+        <button id="addMessageBtn"><i class="fa-solid fa-plus"></i>  Adicionar Mensagens</button>
+        <button id="clearAllBtn"><i class="fa-solid fa-trash"></i>  Limpar as Mensagens</button>
+    </div>
+
+    <div id="messagesContainer" class="messages-container">
+        <!-- Mensagens serão exibidas aqui -->
+    </div>
+</div>
+
+<footer>
+    <div class="footer-text">
+        <h1>Diário Emocional</h1>
+        <p>Um site feito para desabafar consigo mesmo</p>
+        <p>© 2024 Feito por Lucas.</p>
+    </div>
+</footer>
+
+<script src="../js/script.js" defer></script>
+</body>
+</html>
