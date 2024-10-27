@@ -1,0 +1,9 @@
+@media only screen and (max-width: 700px){
+.hero{
+    height: auto;
+    flex-flow: column wrap;
+}
+.hero-text p{
+    display: none;
+};
+}
